@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
-Debug|Win32|C:\Users\SocksUp\SkyDrive\Modules\Graphics and Audio I\Labs\sfml\StarterProject\SFMLGame\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+Debug|Win32|G:\Gameplay Programming\Practical_02_SFMLGame\Practical_02_SFMLGame\PRACTICAL_02_SFMLGame\|
