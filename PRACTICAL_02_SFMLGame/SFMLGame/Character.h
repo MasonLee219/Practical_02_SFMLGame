@@ -10,5 +10,7 @@ public:
 	void initialize();
 	void update();
 	void draw();
+
+	
 };
 #endif

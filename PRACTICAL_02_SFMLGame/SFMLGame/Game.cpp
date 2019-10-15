@@ -12,6 +12,8 @@ void Game::initialize()
 	player = new Player();
 	npc = new NPC();
 
+	player->initialize();
+	npc->initialize();
 	window->setSize(sf::Vector2u(640, 480));
 	window->setTitle("Game");
 }
@@ -38,15 +40,18 @@ void Game::update()
 		player->update();
 		npc->update();
 	}
-
+	if (player->m_sprite.getGlobalBounds().intersects(npc->m_sprite.getGlobalBounds()))
+	{
+		cout << "Mayday mayday" << endl;
+	}
 }
 
 void Game::draw()
 {
 	window->clear();
 	//window->draw(shape);
-	player->draw();
-	npc->draw();
+	player->draw(window);
+	npc->draw(window);
 	window->display();
 }
 

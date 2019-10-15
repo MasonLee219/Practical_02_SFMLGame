@@ -5,13 +5,15 @@ NPC::~NPC(){};
 
 void NPC::initialize()
 {
-	cout << "NPC initialize" << endl;
+	m_texture.loadFromFile("Assets//Sprites//016_Png.png");
+	m_sprite.setTexture(m_texture);
 }
 void NPC::update()
 {
 	cout << "NPC updating" << endl;
 }
-void NPC::draw()
+void NPC::draw(sf::RenderWindow* const t_window)
 {
-	cout << "NPC drawing" << endl;
+	t_window->draw(m_sprite);
+	m_sprite.setScale({ 0.25f,0.25f });
 }
