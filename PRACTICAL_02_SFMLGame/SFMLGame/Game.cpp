@@ -25,7 +25,7 @@ void Game::run()
 	while (window->isOpen())
 	{
 		update();
-		draw();
+		draw();		
 	}
 }
 

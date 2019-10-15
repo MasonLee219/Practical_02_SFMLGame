@@ -1,8 +1,2 @@
-﻿  Character.cpp
-  Game.cpp
-  NPC.cpp
-  Player.cpp
-  main.cpp
-  Generating Code...
-  LINK : G:\Gameplay Programming\Practical_02_SFMLGame\Practical_02_SFMLGame\PRACTICAL_02_SFMLGame\Debug\SFMLGame.exe not found or not built by the last incremental link; performing full link
+﻿  Game.cpp
   SFMLGame.vcxproj -> G:\Gameplay Programming\Practical_02_SFMLGame\Practical_02_SFMLGame\PRACTICAL_02_SFMLGame\Debug\SFMLGame.exe
